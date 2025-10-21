@@ -1,0 +1,3 @@
+# Project exclude paths
+/languages/com.polban.JadwalHarianLang/classes_gen/
+/languages/com.polban.JadwalHarianLang/generator/classes_gen/
