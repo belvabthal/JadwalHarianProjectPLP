@@ -1,8 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144231330558:jetbrains.mps.baseLanguage.structure.ForStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
   <root>
     <file name="TypesystemDescriptor.java">
-      <unit at="7,0,11,0" name="com.polban.JadwalHarianLang.typesystem.TypesystemDescriptor" />
+      <unit at="8,0,20,0" name="com.polban.JadwalHarianLang.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ae86b6ad-eff2-4535-8c04-b4bce738b53e(com.polban.JadwalHarianLang.typesystem)/7288077080416758328">
+    <file name="TypesystemDescriptor.java">
+      <node id="7288077080416758328" at="14,5,15,96" concept="6" />
+      <node id="7288077080416758328" at="15,96,16,55" concept="2" />
+      <node id="7288077080416758328" at="13,5,17,5" concept="0" />
+      <scope id="7288077080416758328" at="14,5,16,55">
+        <var name="nonTypesystemRule" id="7288077080416758328" />
+      </scope>
+    </file>
+    <file name="check_PropertiWaktu_NonTypesystemRule.java">
+      <node id="7288077080416902080" at="26,7,27,66" concept="6" />
+      <node id="7288077080416902080" at="27,66,28,274" concept="6" />
+      <node id="7288077080416758328" at="32,50,33,37" concept="7" />
+      <node id="7288077080416758328" at="35,68,36,102" concept="7" />
+      <node id="7288077080416758328" at="38,30,39,17" concept="7" />
+      <node id="7288077080416758328" at="43,0,44,0" concept="9" trace="waktuMulai$oURc" />
+      <node id="7288077080416758328" at="44,0,45,0" concept="9" trace="waktuSelesai$oV6d" />
+      <node id="7288077080416758328" at="48,0,49,0" concept="9" trace="Menit$gVUo" />
+      <node id="7288077080416758328" at="49,0,50,0" concept="9" trace="Jam$gVFn" />
+      <node id="7288077080416758328" at="53,0,54,0" concept="9" trace="PropertiWaktu$kl" />
+      <node id="7288077080416758328" at="22,0,24,0" concept="1" trace="check_PropertiWaktu_NonTypesystemRule#()V" />
+      <node id="7288077080416758328" at="32,0,35,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7288077080416758328" at="35,0,38,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7288077080416758328" at="38,0,41,0" concept="5" trace="overrides#()Z" />
+      <node id="7288077080416902080" at="25,487,29,7" concept="0" />
+      <node id="7288077080416762746" at="24,126,30,5" concept="4" />
+      <node id="7288077080416758328" at="24,0,32,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7288077080416758328" at="22,50,22,50" />
+      <scope id="7288077080416758328" at="32,50,33,37" />
+      <scope id="7288077080416758328" at="35,68,36,102" />
+      <scope id="7288077080416758328" at="38,30,39,17" />
+      <scope id="7288077080416758328" at="22,0,24,0" />
+      <scope id="7288077080416902080" at="26,7,28,274">
+        <var name="_reporter_2309309498" id="7288077080416902080" />
+        <var name="errorTarget" id="7288077080416902080" />
+      </scope>
+      <scope id="7288077080416758328" at="32,0,35,0" />
+      <scope id="7288077080416758328" at="35,0,38,0">
+        <var name="argument" id="7288077080416758328" />
+      </scope>
+      <scope id="7288077080416758328" at="38,0,41,0" />
+      <scope id="7288077080416762748" at="25,487,29,7" />
+      <scope id="7288077080416758329" at="24,126,30,5" />
+      <scope id="7288077080416758328" at="24,0,32,0">
+        <var name="propertiWaktu" id="7288077080416758328" />
+        <var name="status" id="7288077080416758328" />
+        <var name="typeCheckingContext" id="7288077080416758328" />
+      </scope>
+      <unit id="7288077080416758328" at="52,0,55,0" name="com.polban.JadwalHarianLang.typesystem.check_PropertiWaktu_NonTypesystemRule$CONCEPTS" />
+      <unit id="7288077080416758328" at="42,0,46,0" name="com.polban.JadwalHarianLang.typesystem.check_PropertiWaktu_NonTypesystemRule$LINKS" />
+      <unit id="7288077080416758328" at="47,0,51,0" name="com.polban.JadwalHarianLang.typesystem.check_PropertiWaktu_NonTypesystemRule$PROPS" />
+      <unit id="7288077080416758328" at="21,0,56,0" name="com.polban.JadwalHarianLang.typesystem.check_PropertiWaktu_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:ae86b6ad-eff2-4535-8c04-b4bce738b53e(com.polban.JadwalHarianLang.typesystem)/7288077080417059447">
+    <file name="TypesystemDescriptor.java">
+      <node id="7288077080417059447" at="10,5,11,89" concept="6" />
+      <node id="7288077080417059447" at="11,89,12,55" concept="2" />
+      <node id="7288077080417059447" at="9,33,13,5" concept="0" />
+      <scope id="7288077080417059447" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="7288077080417059447" />
+      </scope>
+    </file>
+    <file name="check_Jadwal_NonTypesystemRule.java">
+      <node id="7288077080417059569" at="26,119,27,89" concept="6" />
+      <node id="7288077080417061622" at="27,89,28,0" concept="8" />
+      <node id="7288077080417166044" at="29,75,30,52" concept="6" />
+      <node id="7288077080417193095" at="30,52,31,0" concept="8" />
+      <node id="7288077080417193674" at="31,0,32,335" concept="6" />
+      <node id="7288077080417226759" at="32,335,33,341" concept="6" />
+      <node id="7288077080417259956" at="33,341,34,0" concept="8" />
+      <node id="7288077080417314495" at="35,81,36,54" concept="6" />
+      <node id="7288077080417341886" at="36,54,37,0" concept="8" />
+      <node id="7288077080417342649" at="37,0,38,337" concept="6" />
+      <node id="7288077080417374672" at="38,337,39,343" concept="6" />
+      <node id="7288077080417407954" at="39,343,40,0" concept="8" />
+      <node id="7288077080417436764" at="42,11,43,70" concept="6" />
+      <node id="7288077080417436764" at="43,70,44,314" concept="6" />
+      <node id="7288077080417445262" at="46,11,47,70" concept="6" />
+      <node id="7288077080417445262" at="47,70,48,314" concept="6" />
+      <node id="7288077080417059447" at="54,50,55,30" concept="7" />
+      <node id="7288077080417059447" at="57,68,58,102" concept="7" />
+      <node id="7288077080417059447" at="60,30,61,17" concept="7" />
+      <node id="7288077080417059447" at="65,0,66,0" concept="9" trace="kegiatans$Ta9o" />
+      <node id="7288077080417059447" at="66,0,67,0" concept="9" trace="waktu$cLTo" />
+      <node id="7288077080417059447" at="67,0,68,0" concept="9" trace="waktuMulai$oURc" />
+      <node id="7288077080417059447" at="68,0,69,0" concept="9" trace="waktuSelesai$oV6d" />
+      <node id="7288077080417059447" at="72,0,73,0" concept="9" trace="Menit$gVUo" />
+      <node id="7288077080417059447" at="73,0,74,0" concept="9" trace="Jam$gVFn" />
+      <node id="7288077080417059447" at="74,0,75,0" concept="9" trace="name$cLEn" />
+      <node id="7288077080417059447" at="78,0,79,0" concept="9" trace="Jadwal$Sf" />
+      <node id="7288077080417059447" at="24,0,26,0" concept="1" trace="check_Jadwal_NonTypesystemRule#()V" />
+      <node id="7288077080417059447" at="54,0,57,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7288077080417059447" at="57,0,60,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7288077080417059447" at="60,0,63,0" concept="5" trace="overrides#()Z" />
+      <node id="7288077080417436764" at="41,57,45,11" concept="0" />
+      <node id="7288077080417445262" at="45,11,49,11" concept="0" />
+      <node id="7288077080417408803" at="40,0,50,9" concept="4" />
+      <node id="7288077080417261310" at="34,0,51,7" concept="3" />
+      <node id="7288077080417061633" at="28,0,52,5" concept="3" />
+      <node id="7288077080417059447" at="26,0,54,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7288077080417059447" at="24,43,24,43" />
+      <scope id="7288077080417059447" at="54,50,55,30" />
+      <scope id="7288077080417059447" at="57,68,58,102" />
+      <scope id="7288077080417059447" at="60,30,61,17" />
+      <scope id="7288077080417059447" at="24,0,26,0" />
+      <scope id="7288077080417436764" at="42,11,44,314">
+        <var name="_reporter_2309309498" id="7288077080417436764" />
+        <var name="errorTarget" id="7288077080417436764" />
+      </scope>
+      <scope id="7288077080417445262" at="46,11,48,314">
+        <var name="_reporter_2309309498" id="7288077080417445262" />
+        <var name="errorTarget" id="7288077080417445262" />
+      </scope>
+      <scope id="7288077080417059447" at="54,0,57,0" />
+      <scope id="7288077080417059447" at="57,0,60,0">
+        <var name="argument" id="7288077080417059447" />
+      </scope>
+      <scope id="7288077080417059447" at="60,0,63,0" />
+      <scope id="7288077080417408805" at="41,57,49,11" />
+      <scope id="7288077080417261312" at="35,81,50,9">
+        <var name="b_mulai" id="7288077080417342652" />
+        <var name="b_selesai" id="7288077080417374675" />
+        <var name="kegiatanB" id="7288077080417314498" />
+      </scope>
+      <scope id="7288077080417261310" at="34,0,51,7">
+        <var name="j" id="7288077080417261313" />
+      </scope>
+      <scope id="7288077080417061635" at="29,75,51,7">
+        <var name="a_mulai" id="7288077080417193677" />
+        <var name="a_selesai" id="7288077080417226762" />
+        <var name="kegiatanA" id="7288077080417166047" />
+      </scope>
+      <scope id="7288077080417061633" at="28,0,52,5">
+        <var name="i" id="7288077080417061636" />
+      </scope>
+      <scope id="7288077080417059448" at="26,119,52,5">
+        <var name="allKegiatans" id="7288077080417059567" />
+      </scope>
+      <scope id="7288077080417059447" at="26,0,54,0">
+        <var name="jadwal" id="7288077080417059447" />
+        <var name="status" id="7288077080417059447" />
+        <var name="typeCheckingContext" id="7288077080417059447" />
+      </scope>
+      <unit id="7288077080417059447" at="77,0,80,0" name="com.polban.JadwalHarianLang.typesystem.check_Jadwal_NonTypesystemRule$CONCEPTS" />
+      <unit id="7288077080417059447" at="71,0,76,0" name="com.polban.JadwalHarianLang.typesystem.check_Jadwal_NonTypesystemRule$PROPS" />
+      <unit id="7288077080417059447" at="64,0,70,0" name="com.polban.JadwalHarianLang.typesystem.check_Jadwal_NonTypesystemRule$LINKS" />
+      <unit id="7288077080417059447" at="23,0,81,0" name="com.polban.JadwalHarianLang.typesystem.check_Jadwal_NonTypesystemRule" />
     </file>
   </root>
 </debug-info>

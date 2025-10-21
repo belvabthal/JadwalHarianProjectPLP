@@ -23,6 +23,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPropertiLokasi = createDescriptorForPropertiLokasi();
   /*package*/ final ConceptDescriptor myConceptPropertiStatus = createDescriptorForPropertiStatus();
   /*package*/ final ConceptDescriptor myConceptPropertiWaktu = createDescriptorForPropertiWaktu();
+  /*package*/ final ConceptDescriptor myConceptTanggal = createDescriptorForTanggal();
+  /*package*/ final ConceptDescriptor myConceptWaktu = createDescriptorForWaktu();
   /*package*/ final EnumerationDescriptor myEnumerationKategoriEnum = new EnumerationDescriptor_KategoriEnum();
   /*package*/ final EnumerationDescriptor myEnumerationStatusEnum = new EnumerationDescriptor_StatusEnum();
   private final LanguageConceptSwitch myIndexSwitch;
@@ -39,7 +41,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptJadwal, myConceptKegiatan, myConceptProgram, myConceptPropertiKategori, myConceptPropertiLokasi, myConceptPropertiStatus, myConceptPropertiWaktu);
+    return Arrays.asList(myConceptJadwal, myConceptKegiatan, myConceptProgram, myConceptPropertiKategori, myConceptPropertiLokasi, myConceptPropertiStatus, myConceptPropertiWaktu, myConceptTanggal, myConceptWaktu);
   }
 
   @Override
@@ -60,6 +62,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptPropertiStatus;
       case LanguageConceptSwitch.PropertiWaktu:
         return myConceptPropertiWaktu;
+      case LanguageConceptSwitch.Tanggal:
+        return myConceptTanggal;
+      case LanguageConceptSwitch.Waktu:
+        return myConceptWaktu;
       default:
         return null;
     }
@@ -79,7 +85,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016527323");
     b.version(3);
-    b.property("tanggal", 0x44f57300c50f6ddcL).type(PrimitiveTypeId.STRING).origin("4969004211016527324").done();
+    b.aggregate("tanggal", 0x6524737da1e6a2a9L).target(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e5655eL).optional(false).ordered(true).multiple(false).origin("7288077080416658089").done();
     b.aggregate("kegiatans", 0x44f57300c50f6dddL).target(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x44f57300c50f6a97L).optional(false).ordered(true).multiple(true).origin("4969004211016527325").done();
     return b.create();
   }
@@ -108,7 +114,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/7288077080416376483");
     b.version(3);
-    b.property("valk", 0x6524737da1e256a4L).type(MetaIdFactory.dataTypeId(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e10aedL)).origin("7288077080416376484").done();
+    b.property("valuek", 0x6524737da1e256a4L).type(MetaIdFactory.dataTypeId(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e10aedL)).origin("7288077080416376484").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPropertiLokasi() {
@@ -132,8 +138,27 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526492");
     b.version(3);
-    b.property("waktuMulai", 0x44f57300c50f6a9dL).type(PrimitiveTypeId.STRING).origin("4969004211016526493").done();
-    b.property("waktuSelesai", 0x44f57300c50f6a9eL).type(PrimitiveTypeId.STRING).origin("4969004211016526494").done();
+    b.aggregate("waktuMulai", 0x6524737da1e6a2afL).target(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e5653eL).optional(false).ordered(true).multiple(false).origin("7288077080416658095").done();
+    b.aggregate("waktuSelesai", 0x6524737da1e6a2b0L).target(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e5653eL).optional(false).ordered(true).multiple(false).origin("7288077080416658096").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTanggal() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.polban.JadwalHarianLang", "Tanggal", 0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e5655eL);
+    b.class_(false, false, false);
+    b.origin("r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/7288077080416576862");
+    b.version(3);
+    b.property("Hari", 0x6524737da1e5655fL).type(PrimitiveTypeId.INTEGER).origin("7288077080416576863").done();
+    b.property("Bulan", 0x6524737da1e56560L).type(PrimitiveTypeId.INTEGER).origin("7288077080416576864").done();
+    b.property("Tahun", 0x6524737da1e56561L).type(PrimitiveTypeId.INTEGER).origin("7288077080416576865").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForWaktu() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.polban.JadwalHarianLang", "Waktu", 0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e5653eL);
+    b.class_(false, false, false);
+    b.origin("r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/7288077080416576830");
+    b.version(3);
+    b.property("Jam", 0x6524737da1e5653fL).type(PrimitiveTypeId.INTEGER).origin("7288077080416576831").done();
+    b.property("Menit", 0x6524737da1e56540L).type(PrimitiveTypeId.INTEGER).origin("7288077080416576832").done();
     return b.create();
   }
 }

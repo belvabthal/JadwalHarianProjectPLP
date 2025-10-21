@@ -16,6 +16,8 @@ public final class LanguageConceptSwitch {
   public static final int PropertiLokasi = 4;
   public static final int PropertiStatus = 5;
   public static final int PropertiWaktu = 6;
+  public static final int Tanggal = 7;
+  public static final int Waktu = 8;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xb20407ef9294e8eL, 0x8050ea856559a353L);
@@ -26,6 +28,8 @@ public final class LanguageConceptSwitch {
     builder.put(0x44f57300c50f6aa1L, PropertiLokasi);
     builder.put(0x44f57300c50f6a9fL, PropertiStatus);
     builder.put(0x44f57300c50f6a9cL, PropertiWaktu);
+    builder.put(0x6524737da1e5655eL, Tanggal);
+    builder.put(0x6524737da1e5653eL, Waktu);
     myIndex = builder.seal();
   }
 

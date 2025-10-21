@@ -16,6 +16,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_PropertiLokasi;
   private ConceptPresentation props_PropertiStatus;
   private ConceptPresentation props_PropertiWaktu;
+  private ConceptPresentation props_Tanggal;
+  private ConceptPresentation props_Waktu;
 
   @Override
   @Nullable
@@ -71,6 +73,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_PropertiWaktu = cpb.create();
         }
         return props_PropertiWaktu;
+      case LanguageConceptSwitch.Tanggal:
+        if (props_Tanggal == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Tanggal");
+          props_Tanggal = cpb.create();
+        }
+        return props_Tanggal;
+      case LanguageConceptSwitch.Waktu:
+        if (props_Waktu == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Waktu");
+          props_Waktu = cpb.create();
+        }
+        return props_Waktu;
     }
     return null;
   }

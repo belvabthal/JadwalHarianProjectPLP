@@ -52,6 +52,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createProperty_0());
+    editorCell.addEditorCell(createConstant_2());
     return editorCell;
   }
   private EditorCell createConstant_0() {
@@ -69,11 +70,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = PROPS.valk$vhXn;
+      final SProperty property = PROPS.valuek$vhXn;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no valk>");
-      editorCell.setCellId("property_valk");
+      editorCell.setDefaultText("<no valuek>");
+      editorCell.setCellId("property_valuek");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
       Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(new IAttributeDescriptor.AllAttributes().list(myNode), CONCEPTS.PropertyAttribute$Gb);
@@ -87,9 +88,15 @@ import org.jetbrains.mps.openapi.language.SConcept;
       getCellFactory().popCellContext();
     }
   }
+  private EditorCell createConstant_2() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, ";");
+    editorCell.setCellId("Constant_847a9c_d0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
 
   private static final class PROPS {
-    /*package*/ static final SProperty valk$vhXn = MetaAdapterFactory.getProperty(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e256a3L, 0x6524737da1e256a4L, "valk");
+    /*package*/ static final SProperty valuek$vhXn = MetaAdapterFactory.getProperty(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x6524737da1e256a3L, 0x6524737da1e256a4L, "valuek");
   }
 
   private static final class CONCEPTS {
