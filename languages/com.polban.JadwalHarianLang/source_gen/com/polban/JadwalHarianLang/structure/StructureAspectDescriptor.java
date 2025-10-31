@@ -37,6 +37,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
     deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
+    deps.extendedLanguage(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, "jetbrains.mps.execution.util");
   }
 
   @Override
@@ -104,6 +105,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForProgram() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.polban.JadwalHarianLang", "Program", 0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x44f57300c50f6a94L);
     b.class_(false, false, true);
+    b.parent(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, 0x40c1a7cb987d20d5L);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526484");
     b.version(3);
     b.aggregate("jadwals", 0x44f57300c50f6a95L).target(0xb20407ef9294e8eL, 0x8050ea856559a353L, 0x44f57300c50f6ddbL).optional(false).ordered(true).multiple(true).origin("4969004211016526485").done();

@@ -19,7 +19,7 @@
       <unit at="10,0,44,0" name="com.polban.JadwalHarianLang.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="18,0,165,0" name="com.polban.JadwalHarianLang.structure.StructureAspectDescriptor" />
+      <unit at="18,0,168,0" name="com.polban.JadwalHarianLang.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526477">
@@ -79,8 +79,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="4969004211016526484" at="14,0,15,0" concept="2" trace="props_Program" />
       <node id="4969004211016526484" at="42,36,43,76" concept="5" />
-      <node id="4969004211016526484" at="43,76,44,41" concept="1" />
-      <node id="4969004211016526484" at="44,41,45,39" concept="1" />
+      <node id="4969004211016526484" at="43,76,44,35" concept="1" />
+      <node id="4969004211016526484" at="44,35,45,39" concept="1" />
       <node id="4969004211016526484" at="46,9,47,29" concept="6" />
       <node id="4969004211016526484" at="41,41,46,9" concept="3" />
       <scope id="4969004211016526484" at="42,36,45,39">
@@ -94,19 +94,21 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4969004211016526484" at="21,0,22,0" concept="2" trace="myConceptProgram" />
-      <node id="4969004211016526484" at="55,41,56,32" concept="6" />
-      <node id="4969004211016526484" at="104,65,105,168" concept="5" />
-      <node id="4969004211016526484" at="105,168,106,33" concept="1" />
-      <node id="4969004211016526484" at="106,33,107,114" concept="1" />
-      <node id="4969004211016526484" at="107,114,108,17" concept="1" />
-      <node id="4969004211016526485" at="108,17,109,199" concept="1" />
-      <node id="4969004211016526484" at="109,199,110,22" concept="6" />
-      <node id="4969004211016526484" at="104,0,112,0" concept="8" trace="createDescriptorForProgram#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4969004211016526484" at="55,41,56,32" />
-      <scope id="4969004211016526484" at="104,65,110,22">
+      <node id="4969004211016526484" at="56,41,57,32" concept="6" />
+      <node id="4969004211016526484" at="105,65,106,168" concept="5" />
+      <node id="4969004211016526484" at="106,168,107,33" concept="1" />
+      <node id="4969004211016526484" at="107,33,108,76" concept="1" />
+      <node id="4969004211016526484" at="108,76,109,71" concept="1" />
+      <node id="4969004211016526484" at="109,71,110,114" concept="1" />
+      <node id="4969004211016526484" at="110,114,111,17" concept="1" />
+      <node id="4969004211016526485" at="111,17,112,199" concept="1" />
+      <node id="4969004211016526484" at="112,199,113,22" concept="6" />
+      <node id="4969004211016526484" at="105,0,115,0" concept="8" trace="createDescriptorForProgram#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4969004211016526484" at="56,41,57,32" />
+      <scope id="4969004211016526484" at="105,65,113,22">
         <var name="b" id="4969004211016526484" />
       </scope>
-      <scope id="4969004211016526484" at="104,0,112,0" />
+      <scope id="4969004211016526484" at="105,0,115,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526487">
@@ -128,23 +130,23 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4969004211016526487" at="20,0,21,0" concept="2" trace="myConceptKegiatan" />
-      <node id="4969004211016526487" at="53,42,54,33" concept="6" />
-      <node id="4969004211016526487" at="92,66,93,169" concept="5" />
-      <node id="4969004211016526487" at="93,169,94,34" concept="1" />
-      <node id="4969004211016526487" at="94,34,95,114" concept="1" />
-      <node id="4969004211016526487" at="95,114,96,17" concept="1" />
-      <node id="4969004211016526488" at="96,17,97,110" concept="1" />
-      <node id="4969004211016526489" at="97,110,98,198" concept="1" />
-      <node id="4969004211016526490" at="98,198,99,199" concept="1" />
-      <node id="4969004211016526491" at="99,199,100,198" concept="1" />
-      <node id="7288077080416376485" at="100,198,101,200" concept="1" />
-      <node id="4969004211016526487" at="101,200,102,22" concept="6" />
-      <node id="4969004211016526487" at="92,0,104,0" concept="8" trace="createDescriptorForKegiatan#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4969004211016526487" at="53,42,54,33" />
-      <scope id="4969004211016526487" at="92,66,102,22">
+      <node id="4969004211016526487" at="54,42,55,33" concept="6" />
+      <node id="4969004211016526487" at="93,66,94,169" concept="5" />
+      <node id="4969004211016526487" at="94,169,95,34" concept="1" />
+      <node id="4969004211016526487" at="95,34,96,114" concept="1" />
+      <node id="4969004211016526487" at="96,114,97,17" concept="1" />
+      <node id="4969004211016526488" at="97,17,98,110" concept="1" />
+      <node id="4969004211016526489" at="98,110,99,198" concept="1" />
+      <node id="4969004211016526490" at="99,198,100,199" concept="1" />
+      <node id="4969004211016526491" at="100,199,101,198" concept="1" />
+      <node id="7288077080416376485" at="101,198,102,200" concept="1" />
+      <node id="4969004211016526487" at="102,200,103,22" concept="6" />
+      <node id="4969004211016526487" at="93,0,105,0" concept="8" trace="createDescriptorForKegiatan#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4969004211016526487" at="54,42,55,33" />
+      <scope id="4969004211016526487" at="93,66,103,22">
         <var name="b" id="4969004211016526487" />
       </scope>
-      <scope id="4969004211016526487" at="92,0,104,0" />
+      <scope id="4969004211016526487" at="93,0,105,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526492">
@@ -166,20 +168,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4969004211016526492" at="25,0,26,0" concept="2" trace="myConceptPropertiWaktu" />
-      <node id="4969004211016526492" at="63,47,64,38" concept="6" />
-      <node id="4969004211016526492" at="136,71,137,174" concept="5" />
-      <node id="4969004211016526492" at="137,174,138,34" concept="1" />
-      <node id="4969004211016526492" at="138,34,139,114" concept="1" />
-      <node id="4969004211016526492" at="139,114,140,17" concept="1" />
-      <node id="7288077080416658095" at="140,17,141,203" concept="1" />
-      <node id="7288077080416658096" at="141,203,142,205" concept="1" />
-      <node id="4969004211016526492" at="142,205,143,22" concept="6" />
-      <node id="4969004211016526492" at="136,0,145,0" concept="8" trace="createDescriptorForPropertiWaktu#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4969004211016526492" at="63,47,64,38" />
-      <scope id="4969004211016526492" at="136,71,143,22">
+      <node id="4969004211016526492" at="64,47,65,38" concept="6" />
+      <node id="4969004211016526492" at="139,71,140,174" concept="5" />
+      <node id="4969004211016526492" at="140,174,141,34" concept="1" />
+      <node id="4969004211016526492" at="141,34,142,114" concept="1" />
+      <node id="4969004211016526492" at="142,114,143,17" concept="1" />
+      <node id="7288077080416658095" at="143,17,144,203" concept="1" />
+      <node id="7288077080416658096" at="144,203,145,205" concept="1" />
+      <node id="4969004211016526492" at="145,205,146,22" concept="6" />
+      <node id="4969004211016526492" at="139,0,148,0" concept="8" trace="createDescriptorForPropertiWaktu#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4969004211016526492" at="64,47,65,38" />
+      <scope id="4969004211016526492" at="139,71,146,22">
         <var name="b" id="4969004211016526492" />
       </scope>
-      <scope id="4969004211016526492" at="136,0,145,0" />
+      <scope id="4969004211016526492" at="139,0,148,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526495">
@@ -201,19 +203,19 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4969004211016526495" at="24,0,25,0" concept="2" trace="myConceptPropertiStatus" />
-      <node id="4969004211016526495" at="61,48,62,39" concept="6" />
-      <node id="4969004211016526495" at="128,72,129,175" concept="5" />
-      <node id="4969004211016526495" at="129,175,130,34" concept="1" />
-      <node id="4969004211016526495" at="130,34,131,114" concept="1" />
-      <node id="4969004211016526495" at="131,114,132,17" concept="1" />
-      <node id="4969004211016526496" at="132,17,133,175" concept="1" />
-      <node id="4969004211016526495" at="133,175,134,22" concept="6" />
-      <node id="4969004211016526495" at="128,0,136,0" concept="8" trace="createDescriptorForPropertiStatus#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4969004211016526495" at="61,48,62,39" />
-      <scope id="4969004211016526495" at="128,72,134,22">
+      <node id="4969004211016526495" at="62,48,63,39" concept="6" />
+      <node id="4969004211016526495" at="131,72,132,175" concept="5" />
+      <node id="4969004211016526495" at="132,175,133,34" concept="1" />
+      <node id="4969004211016526495" at="133,34,134,114" concept="1" />
+      <node id="4969004211016526495" at="134,114,135,17" concept="1" />
+      <node id="4969004211016526496" at="135,17,136,175" concept="1" />
+      <node id="4969004211016526495" at="136,175,137,22" concept="6" />
+      <node id="4969004211016526495" at="131,0,139,0" concept="8" trace="createDescriptorForPropertiStatus#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4969004211016526495" at="62,48,63,39" />
+      <scope id="4969004211016526495" at="131,72,137,22">
         <var name="b" id="4969004211016526495" />
       </scope>
-      <scope id="4969004211016526495" at="128,0,136,0" />
+      <scope id="4969004211016526495" at="131,0,139,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016526497">
@@ -235,19 +237,19 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4969004211016526497" at="23,0,24,0" concept="2" trace="myConceptPropertiLokasi" />
-      <node id="4969004211016526497" at="59,48,60,39" concept="6" />
-      <node id="4969004211016526497" at="120,72,121,175" concept="5" />
-      <node id="4969004211016526497" at="121,175,122,34" concept="1" />
-      <node id="4969004211016526497" at="122,34,123,114" concept="1" />
-      <node id="4969004211016526497" at="123,114,124,17" concept="1" />
-      <node id="4969004211016526499" at="124,17,125,116" concept="1" />
-      <node id="4969004211016526497" at="125,116,126,22" concept="6" />
-      <node id="4969004211016526497" at="120,0,128,0" concept="8" trace="createDescriptorForPropertiLokasi#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4969004211016526497" at="59,48,60,39" />
-      <scope id="4969004211016526497" at="120,72,126,22">
+      <node id="4969004211016526497" at="60,48,61,39" concept="6" />
+      <node id="4969004211016526497" at="123,72,124,175" concept="5" />
+      <node id="4969004211016526497" at="124,175,125,34" concept="1" />
+      <node id="4969004211016526497" at="125,34,126,114" concept="1" />
+      <node id="4969004211016526497" at="126,114,127,17" concept="1" />
+      <node id="4969004211016526499" at="127,17,128,116" concept="1" />
+      <node id="4969004211016526497" at="128,116,129,22" concept="6" />
+      <node id="4969004211016526497" at="123,0,131,0" concept="8" trace="createDescriptorForPropertiLokasi#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4969004211016526497" at="60,48,61,39" />
+      <scope id="4969004211016526497" at="123,72,129,22">
         <var name="b" id="4969004211016526497" />
       </scope>
-      <scope id="4969004211016526497" at="120,0,128,0" />
+      <scope id="4969004211016526497" at="123,0,131,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/4969004211016527323">
@@ -269,20 +271,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="4969004211016527323" at="19,0,20,0" concept="2" trace="myConceptJadwal" />
-      <node id="4969004211016527323" at="51,40,52,31" concept="6" />
-      <node id="4969004211016527323" at="83,64,84,167" concept="5" />
-      <node id="4969004211016527323" at="84,167,85,34" concept="1" />
-      <node id="4969004211016527323" at="85,34,86,114" concept="1" />
-      <node id="4969004211016527323" at="86,114,87,17" concept="1" />
-      <node id="7288077080416658089" at="87,17,88,200" concept="1" />
-      <node id="4969004211016527325" at="88,200,89,201" concept="1" />
-      <node id="4969004211016527323" at="89,201,90,22" concept="6" />
-      <node id="4969004211016527323" at="83,0,92,0" concept="8" trace="createDescriptorForJadwal#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="4969004211016527323" at="51,40,52,31" />
-      <scope id="4969004211016527323" at="83,64,90,22">
+      <node id="4969004211016527323" at="52,40,53,31" concept="6" />
+      <node id="4969004211016527323" at="84,64,85,167" concept="5" />
+      <node id="4969004211016527323" at="85,167,86,34" concept="1" />
+      <node id="4969004211016527323" at="86,34,87,114" concept="1" />
+      <node id="4969004211016527323" at="87,114,88,17" concept="1" />
+      <node id="7288077080416658089" at="88,17,89,200" concept="1" />
+      <node id="4969004211016527325" at="89,200,90,201" concept="1" />
+      <node id="4969004211016527323" at="90,201,91,22" concept="6" />
+      <node id="4969004211016527323" at="84,0,93,0" concept="8" trace="createDescriptorForJadwal#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4969004211016527323" at="52,40,53,31" />
+      <scope id="4969004211016527323" at="84,64,91,22">
         <var name="b" id="4969004211016527323" />
       </scope>
-      <scope id="4969004211016527323" at="83,0,92,0" />
+      <scope id="4969004211016527323" at="84,0,93,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/7288077080416291565">
@@ -357,19 +359,19 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7288077080416376483" at="22,0,23,0" concept="2" trace="myConceptPropertiKategori" />
-      <node id="7288077080416376483" at="57,50,58,41" concept="6" />
-      <node id="7288077080416376483" at="112,74,113,177" concept="5" />
-      <node id="7288077080416376483" at="113,177,114,34" concept="1" />
-      <node id="7288077080416376483" at="114,34,115,114" concept="1" />
-      <node id="7288077080416376483" at="115,114,116,17" concept="1" />
-      <node id="7288077080416376484" at="116,17,117,176" concept="1" />
-      <node id="7288077080416376483" at="117,176,118,22" concept="6" />
-      <node id="7288077080416376483" at="112,0,120,0" concept="8" trace="createDescriptorForPropertiKategori#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7288077080416376483" at="57,50,58,41" />
-      <scope id="7288077080416376483" at="112,74,118,22">
+      <node id="7288077080416376483" at="58,50,59,41" concept="6" />
+      <node id="7288077080416376483" at="115,74,116,177" concept="5" />
+      <node id="7288077080416376483" at="116,177,117,34" concept="1" />
+      <node id="7288077080416376483" at="117,34,118,114" concept="1" />
+      <node id="7288077080416376483" at="118,114,119,17" concept="1" />
+      <node id="7288077080416376484" at="119,17,120,176" concept="1" />
+      <node id="7288077080416376483" at="120,176,121,22" concept="6" />
+      <node id="7288077080416376483" at="115,0,123,0" concept="8" trace="createDescriptorForPropertiKategori#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7288077080416376483" at="58,50,59,41" />
+      <scope id="7288077080416376483" at="115,74,121,22">
         <var name="b" id="7288077080416376483" />
       </scope>
-      <scope id="7288077080416376483" at="112,0,120,0" />
+      <scope id="7288077080416376483" at="115,0,123,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/7288077080416576830">
@@ -391,20 +393,20 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7288077080416576830" at="27,0,28,0" concept="2" trace="myConceptWaktu" />
-      <node id="7288077080416576830" at="67,39,68,30" concept="6" />
-      <node id="7288077080416576830" at="155,63,156,166" concept="5" />
-      <node id="7288077080416576830" at="156,166,157,34" concept="1" />
-      <node id="7288077080416576830" at="157,34,158,114" concept="1" />
-      <node id="7288077080416576830" at="158,114,159,17" concept="1" />
-      <node id="7288077080416576831" at="159,17,160,110" concept="1" />
-      <node id="7288077080416576832" at="160,110,161,112" concept="1" />
-      <node id="7288077080416576830" at="161,112,162,22" concept="6" />
-      <node id="7288077080416576830" at="155,0,164,0" concept="8" trace="createDescriptorForWaktu#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7288077080416576830" at="67,39,68,30" />
-      <scope id="7288077080416576830" at="155,63,162,22">
+      <node id="7288077080416576830" at="68,39,69,30" concept="6" />
+      <node id="7288077080416576830" at="158,63,159,166" concept="5" />
+      <node id="7288077080416576830" at="159,166,160,34" concept="1" />
+      <node id="7288077080416576830" at="160,34,161,114" concept="1" />
+      <node id="7288077080416576830" at="161,114,162,17" concept="1" />
+      <node id="7288077080416576831" at="162,17,163,110" concept="1" />
+      <node id="7288077080416576832" at="163,110,164,112" concept="1" />
+      <node id="7288077080416576830" at="164,112,165,22" concept="6" />
+      <node id="7288077080416576830" at="158,0,167,0" concept="8" trace="createDescriptorForWaktu#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7288077080416576830" at="68,39,69,30" />
+      <scope id="7288077080416576830" at="158,63,165,22">
         <var name="b" id="7288077080416576830" />
       </scope>
-      <scope id="7288077080416576830" at="155,0,164,0" />
+      <scope id="7288077080416576830" at="158,0,167,0" />
     </file>
   </root>
   <root nodeRef="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)/7288077080416576862">
@@ -426,21 +428,21 @@
     </file>
     <file name="StructureAspectDescriptor.java">
       <node id="7288077080416576862" at="26,0,27,0" concept="2" trace="myConceptTanggal" />
-      <node id="7288077080416576862" at="65,41,66,32" concept="6" />
-      <node id="7288077080416576862" at="145,65,146,168" concept="5" />
-      <node id="7288077080416576862" at="146,168,147,34" concept="1" />
-      <node id="7288077080416576862" at="147,34,148,114" concept="1" />
-      <node id="7288077080416576862" at="148,114,149,17" concept="1" />
-      <node id="7288077080416576863" at="149,17,150,111" concept="1" />
-      <node id="7288077080416576864" at="150,111,151,112" concept="1" />
-      <node id="7288077080416576865" at="151,112,152,112" concept="1" />
-      <node id="7288077080416576862" at="152,112,153,22" concept="6" />
-      <node id="7288077080416576862" at="145,0,155,0" concept="8" trace="createDescriptorForTanggal#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
-      <scope id="7288077080416576862" at="65,41,66,32" />
-      <scope id="7288077080416576862" at="145,65,153,22">
+      <node id="7288077080416576862" at="66,41,67,32" concept="6" />
+      <node id="7288077080416576862" at="148,65,149,168" concept="5" />
+      <node id="7288077080416576862" at="149,168,150,34" concept="1" />
+      <node id="7288077080416576862" at="150,34,151,114" concept="1" />
+      <node id="7288077080416576862" at="151,114,152,17" concept="1" />
+      <node id="7288077080416576863" at="152,17,153,111" concept="1" />
+      <node id="7288077080416576864" at="153,111,154,112" concept="1" />
+      <node id="7288077080416576865" at="154,112,155,112" concept="1" />
+      <node id="7288077080416576862" at="155,112,156,22" concept="6" />
+      <node id="7288077080416576862" at="148,0,158,0" concept="8" trace="createDescriptorForTanggal#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7288077080416576862" at="66,41,67,32" />
+      <scope id="7288077080416576862" at="148,65,156,22">
         <var name="b" id="7288077080416576862" />
       </scope>
-      <scope id="7288077080416576862" at="145,0,155,0" />
+      <scope id="7288077080416576862" at="148,0,158,0" />
     </file>
   </root>
 </debug-info>

@@ -42,8 +42,14 @@
         <property id="7288077080416376484" name="valuek" index="34Lynp" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
   </registry>
   <node concept="21YxAk" id="5Sj4Fw48m48">
+    <property role="TrG5h" value="hehehehs" />
     <node concept="21YxVr" id="5Sj4Fw48m49" role="21YxAl">
       <node concept="34Khoz" id="5Sj4Fw48m4a" role="34KH7k">
         <property role="34Khoy" value="10" />

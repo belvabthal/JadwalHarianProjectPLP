@@ -9,6 +9,7 @@
     <import index="lkgp" ref="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
   <registry>
@@ -238,6 +239,22 @@
     <node concept="n94m4" id="5Sj4Fw46PG5" role="lGtFl">
       <ref role="n9lRv" to="lkgp:4jPsK353QEk" resolve="Program" />
     </node>
+    <node concept="17Uvod" id="5Sj4Fw48rRe" role="lGtFl">
+      <property role="2qtEX9" value="name" />
+      <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
+      <node concept="3zFVjK" id="5Sj4Fw48rRh" role="3zH0cK">
+        <node concept="3clFbS" id="5Sj4Fw48rRi" role="2VODD2">
+          <node concept="3clFbF" id="5Sj4Fw48rRo" role="3cqZAp">
+            <node concept="2OqwBi" id="5Sj4Fw48rRj" role="3clFbG">
+              <node concept="3TrcHB" id="5Sj4Fw48rRm" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+              <node concept="30H73N" id="5Sj4Fw48rRn" role="2Oq$k0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="5Sj4Fw46PGY">
     <property role="TrG5h" value="reduce_Jadwal" />
@@ -253,7 +270,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw47$xF" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw47$ys" role="37wK5m">
                   <property role="Xl_RC" value="Tanggal: " />
                 </node>
@@ -292,7 +309,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw47$QF" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw47$Sx" role="37wK5m">
                   <property role="Xl_RC" value="Kegiatan: " />
                 </node>
@@ -513,7 +530,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw4789U" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw478bq" role="37wK5m">
                   <property role="Xl_RC" value="Waktu Mulai: " />
                 </node>
@@ -552,7 +569,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw478vD" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw478D1" role="37wK5m">
                   <property role="Xl_RC" value="Waktu Selesai: " />
                 </node>
@@ -766,20 +783,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbF" id="5Sj4Fw47gOH" role="3cqZAp">
-            <node concept="2OqwBi" id="5Sj4Fw47gOE" role="3clFbG">
-              <node concept="10M0yZ" id="5Sj4Fw47gOF" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              </node>
-              <node concept="liA8E" id="5Sj4Fw47gOG" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
-                <node concept="Xl_RD" id="5Sj4Fw47gRc" role="37wK5m">
-                  <property role="Xl_RC" value="Waktu: " />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3clFbF" id="5Sj4Fw47kgn" role="3cqZAp">
             <node concept="2OqwBi" id="5Sj4Fw47kgk" role="3clFbG">
               <node concept="10M0yZ" id="5Sj4Fw47kgl" role="2Oq$k0">
@@ -812,7 +815,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw47hOf" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw47hRN" role="37wK5m">
                   <property role="Xl_RC" value="Status: " />
                 </node>
@@ -851,7 +854,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw47j_E" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw47jFm" role="37wK5m">
                   <property role="Xl_RC" value="Lokasi: " />
                 </node>
@@ -890,7 +893,7 @@
                 <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
               </node>
               <node concept="liA8E" id="5Sj4Fw47ihU" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
+                <ref role="37wK5l" to="guwi:~PrintStream.print(java.lang.String)" resolve="print" />
                 <node concept="Xl_RD" id="5Sj4Fw47isn" role="37wK5m">
                   <property role="Xl_RC" value="Kategori: " />
                 </node>

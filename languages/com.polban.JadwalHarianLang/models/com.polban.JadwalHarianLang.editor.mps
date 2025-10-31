@@ -8,6 +8,7 @@
   </languages>
   <imports>
     <import index="lkgp" ref="r:bbad0a15-3ad2-4910-b66b-8abe2a259462(com.polban.JadwalHarianLang.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -52,6 +53,9 @@
   <node concept="24kQdi" id="4jPsK353XCy">
     <ref role="1XX52x" to="lkgp:4jPsK353QEk" resolve="Program" />
     <node concept="3EZMnI" id="4jPsK353XCC" role="2wV5jI">
+      <node concept="3F0A7n" id="5Sj4Fw48rEV" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
       <node concept="2iRkQZ" id="4jPsK353XCF" role="2iSdaV" />
       <node concept="3F2HdR" id="4jPsK353XEQ" role="3EZMnx">
         <ref role="1NtTu8" to="lkgp:4jPsK353QEl" resolve="jadwals" />
